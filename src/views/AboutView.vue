@@ -1,31 +1,17 @@
 <template>
-  <div>
-    
-  </div>
+  <NavBar/>
+  <Footer/>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/NavBar.vue'
+import NavBar from '@/components/NavBar.vue';
+import Footer from '@/components/Footer.vue'
+
 export default {
-  name: 'VueEompAboutView',
-
-  data() {
-    return {
-      
-    };
-  },
-
-  mounted() {
-    
-  },
-
-  methods: {
-    
-  },
-};
+name: 'HomeView',
+components: {
+  NavBar,
+  Footer
+}
+}
 </script>
-
-<style lang="scss" scoped>
-
-</style>
